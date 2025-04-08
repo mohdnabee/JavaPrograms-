@@ -2,7 +2,7 @@ public class questionTwo {
     public static void main(String[] args) {
       //   11.	Take name as String and age as int. Print in format: My name is Raj and I am 20 years old
       String Name = "Mohd Nabeel" ; 
-      int age =  21; 
+      int age =  20; 
       System.out.println("MY Name is "+ Name+ "and I am "+ age +"years old" );
       System.out.println();
 
@@ -30,7 +30,6 @@ numa= numa-numb;
 System.out.println("After swap the value");
 System.out.println("number 1 =  " + numa);
 System.out.println("number 2 =  "+ numb);
-
 
     }
 

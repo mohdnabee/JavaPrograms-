@@ -21,9 +21,6 @@ public class questionDay2 {
         }else {
             System.out.println("invaild operator" );
         }
-
-
-
     }
     
 }

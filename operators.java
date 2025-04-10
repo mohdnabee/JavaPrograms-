@@ -4,13 +4,14 @@ public class operators {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in); 
-        System.out.println("Enter two numbers: ");
+        System.out.println("Enter the 1st numbers: ");
         int a = in.nextInt();
+        System.out.println("Enter the 2nd numbers: ");
         int b = in.nextInt();
 
         System.out.println("Enter the opertaion +, -, *, /,% ");
         char operator =  in.next().charAt(0);
-   switch (operator) {
+        switch (operator) {
        case '+':
        System.out.println("Addition : "+(a+b) );
        break;
@@ -30,7 +31,7 @@ public class operators {
                case '%':if(b == 0) {
                 System.out.println("Invalid Division");
             } else {
-                System.out.println("Modulus : "+ (a%b));
+                System.out.println("Modulus : "+ (a % b));
             }    
                break;
        default:

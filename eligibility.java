@@ -15,6 +15,5 @@ public class eligibility {
         System.out.println("Not Eligible For Vote");
        }
 
-
     }
 }

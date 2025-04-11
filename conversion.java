@@ -33,6 +33,9 @@ public class conversion {
         float rt= (float)yy;
         System.out.println("double to float = "+ rt);
 
+        float uu =  1.5f ; 
+        System.out.println("float to int =  " +(int)uu+" "+ uu);
+
     }
     
 }

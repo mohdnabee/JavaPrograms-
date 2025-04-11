@@ -21,7 +21,6 @@ public class grade {
         } else {
             System.out.println("Invalid marks. Please enter marks between 0 and 100.");
         }
-
     }
     
 }
